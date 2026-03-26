@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/0mkar9/spring-petclinic.git'
+                git 'git branch: 'main', url: 'https://github.com/0mkar9/spring-petclinic.git'
             }
         }
 
